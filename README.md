@@ -1,10 +1,10 @@
 # Learn Deno on Google Cloud Run
 
 ## 本リポジトリの目的
-Google Cloud RunでDenoを使ってDockerを動かしてみたかった
+Google Cloud RunでDenoを動かしてみたかった
 
 ## 本リポジトリの達成目標
-- [ ] Google Cloud RunでDenoのAPIが動く
+- [x] Google Cloud RunでDenoのAPIが動く
 - [ ] Google Cloud Runで[BracesDB](https://deno.land/x/bracesdb@v2.0.0)の`FileDB`が動く
 
 ## 参考資料
