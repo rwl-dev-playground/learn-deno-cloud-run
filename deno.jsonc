@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "docker compose up -d",
+    "shutdown": "docker compose down",
+    "shutdown:rmi": "docker compose down --rmi local"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.175.0/",
+    "hono/": "https://deno.land/x/hono@v3.2.2/"
+  }
+}
