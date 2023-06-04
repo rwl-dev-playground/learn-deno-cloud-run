@@ -2,7 +2,8 @@
   "tasks": {
     "dev": "docker compose up -d",
     "shutdown": "docker compose down",
-    "shutdown:rmi": "docker compose down --rmi local"
+    "shutdown:rmi": "docker compose down --rmi local",
+    "serve": "deno run --allow-net api/main.ts"
   },
   "imports": {
     "std/": "https://deno.land/std@0.175.0/",
